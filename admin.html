@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Dashboard Admin | HOTEL KENCONO</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Background -->
+    <div class="batik-background"></div>
+
+    <!-- ================= HEADER ================= -->
+
+    <header>
+
+        <nav class="navbar">
+
+            <div class="logo">
+
+                HOTEL KENCONO
+
+            </div>
+
+            <ul>
+
+                <li><a href="admin.html">Dashboard</a></li>
+
+                <li><a href="setting.html">Pengaturan</a></li>
+
+                <li><a href="login.html">Logout</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <!-- ================= HERO ================= -->
+
+    <section class="admin-hero">
+
+        <h1>
+
+            Dashboard Administrator
+
+        </h1>
+
+        <p>
+
+            Selamat datang Admin.
+            Kelola seluruh data HOTEL KENCONO melalui halaman ini.
+
+        </p>
+
+    </section>
+
+    <!-- ================= MENU ================= -->
+
+    <section class="admin-menu">
+
+        <div class="menu-card">
+
+            <h2>🛏 Data Kamar</h2>
+
+            <p>
+
+                Tambah, ubah dan hapus kamar hotel.
+
+            </p>
+
+            <button>Kelola</button>
+
+        </div>
+
+        <div class="menu-card">
+
+            <h2>📅 Booking</h2>
+
+            <p>
+
+                Lihat seluruh data pemesanan.
+
+            </p>
+
+            <button>Lihat</button>
+
+        </div>
+
+        <div class="menu-card">
+
+            <h2>👥 Data Pengguna</h2>
+
+            <p>
+
+                Daftar seluruh user.
+
+            </p>
+
+           <a href="#data-kamar">
+
+    <button>
+
+        Kelola
+
+    </button>
+
+</a>
+
+        </div>
+
+        <div class="menu-card">
+
+            <h2>📊 Laporan</h2>
+
+            <p>
+
+                Statistik booking hotel.
+
+            </p>
+
+            <button>Buka</button>
+
+        </div>
+
+    </section>
+
+    <!-- ================= DATA KAMAR ================= -->
+
+    <section class="table-section" id="data-kamar">
+
+        <h2>Data Kamar</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>No</th>
+
+                    <th>Nama Kamar</th>
+
+                    <th>Harga</th>
+
+                    <th>Status</th>
+
+                    <th>Aksi</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>1</td>
+
+                    <td>Kamar Istirahat</td>
+
+                    <td>Rp150.000</td>
+
+                    <td>Tersedia</td>
+
+                    <td>
+
+                        <button>Edit</button>
+
+                        <button>Hapus</button>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>2</td>
+
+                    <td>Kamar Standar</td>
+
+                    <td>Rp350.000</td>
+
+                    <td>Tersedia</td>
+
+                    <td>
+
+                        <button>Edit</button>
+
+                        <button>Hapus</button>
+
+                    </td>
+
+                </tr>
+
+                <tr>
+
+                    <td>3</td>
+
+                    <td>Kamar VIP</td>
+
+                    <td>Rp750.000</td>
+
+                    <td>Tersedia</td>
+
+                    <td>
+
+                        <button>Edit</button>
+
+                        <button>Hapus</button>
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- ================= TAMBAH KAMAR ================= -->
+<section class="form-admin">
+
+    <h2>Tambah Kamar Baru</h2>
+
+    <form id="formKamar">
+
+        <input
+            type="text"
+            id="namaKamar"
+            placeholder="Nama Kamar">
+
+        <input
+            type="number"
+            id="hargaKamar"
+            placeholder="Harga">
+
+        <textarea
+            id="fasilitasKamar"
+            placeholder="Fasilitas"
+            rows="5"></textarea>
+
+        <input
+            type="file"
+            id="fotoKamar">
+
+        <button type="submit">
+
+            Simpan Kamar
+
+        </button>
+
+    </form>
+
+</section>
+
+    <!-- ================= DATA BOOKING ================= -->
+
+    <section class="table-section">
+
+        <h2>Data Booking</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+
+                    <th>Nama</th>
+
+                    <th>Kamar</th>
+
+                    <th>Check In</th>
+
+                    <th>Check Out</th>
+
+                    <th>Status</th>
+
+                </tr>
+
+            </thead>
+
+            <tbody>
+
+                <tr>
+
+                    <td>Ridwan</td>
+
+                    <td>VIP</td>
+
+                    <td>12 Juni 2026</td>
+
+                    <td>15 Juni 2026</td>
+
+                    <td>
+
+                        Lunas
+
+                    </td>
+
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <h3>
+
+            HOTEL KENCONO
+
+        </h3>
+
+        <p>
+
+            Dashboard Administrator
+
+        </p>
+
+        <p>
+
+            © 2026 HOTEL KENCONO
+
+        </p>
+
+    </footer>
+
+    <!-- Javascript -->
+
+    <script src="js/admin.js"></script>
+
+    
+</body>
+
+</html>

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login | HOTEL KENCONO</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Background Batik -->
+    <div class="batik-background"></div>
+
+    <!-- Container Login -->
+    <div class="login-container">
+
+        <!-- Logo Hotel -->
+        <div class="logo-area">
+
+            <img src="images/logo.png" alt="Logo Hotel">
+
+            <h1>HOTEL KENCONO</h1>
+
+            <p>Kenyamanan Tradisional, Kemewahan Modern.</p>
+
+        </div>
+
+        <!-- Form Login -->
+        <form id="loginForm">
+
+            <h2>Masuk ke Sistem</h2>
+
+            <!-- Pilihan Login -->
+
+            <div class="login-type">
+
+                <label>
+
+                    <input type="radio"
+                           name="role"
+                           value="user"
+                           checked>
+
+                    User
+
+                </label>
+
+                <label>
+
+                    <input type="radio"
+                           name="role"
+                           value="admin">
+
+                    Admin
+
+                </label>
+
+            </div>
+
+            <!-- Username -->
+
+            <div class="input-box">
+
+                <label>Username</label>
+
+                <input
+                    type="text"
+                    id="username"
+                    placeholder="Masukkan Username"
+                    required>
+
+            </div>
+
+            <!-- Password -->
+
+            <div class="input-box">
+
+                <label>Password</label>
+
+                <input
+                    type="password"
+                    id="password"
+                    placeholder="Masukkan Password"
+                    required>
+
+            </div>
+
+            <!-- Tombol -->
+
+            <button type="submit">
+
+                LOGIN
+
+            </button>
+
+            <!-- Akun Demo -->
+
+            <div class="demo-account">
+
+                <h4>Akun Resmi Hotel</h4>
+
+                <p><b></b></p>
+
+                <p></p>
+
+                <p></p>
+
+                <br>
+
+                <p><b></b></p>
+
+                <p></p>
+
+                <p></p>
+
+            </div>
+
+            <!-- Kembali -->
+
+            <a href="index.html" class="back-home">
+
+                ← Kembali ke Beranda
+
+            </a>
+
+        </form>
+
+    </div>
+
+    <!-- Javascript -->
+
+    <script src="js/login.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

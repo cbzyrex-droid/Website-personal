@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Booking Kamar | HOTEL KENCONO</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div class="batik-background"></div>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+
+HOTEL KENCONO
+
+</div>
+
+<ul>
+
+<li><a href="user.html">Home</a></li>
+
+<li><a href="booking.html">Booking</a></li>
+
+<li><a href="history.html">Riwayat</a></li>
+
+<li><a href="profile.html">Profil</a></li>
+
+<li><a href="login.html">Logout</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+<section class="booking-container">
+
+<h1>
+
+Booking Kamar
+
+</h1>
+
+<p>
+
+Silakan lengkapi data pemesanan.
+
+</p>
+
+<form id="bookingForm">
+
+<div class="booking-grid">
+
+<div class="left-booking">
+
+<label>
+
+Nama Pemesan
+
+</label>
+
+<input
+type="text"
+id="nama"
+placeholder="Nama Lengkap">
+
+<label>
+
+Jenis Kamar
+
+</label>
+
+<select id="jenisKamar">
+
+<option>Kamar Istirahat</option>
+
+<option>Kamar Standar</option>
+
+<option>Kamar VIP</option>
+
+</select>
+
+<label>
+
+Check In
+
+</label>
+
+<input
+type="date"
+id="checkin">
+
+<label>
+
+Check Out
+
+</label>
+
+<input
+type="date"
+id="checkout">
+
+<label>
+
+Jumlah Tamu
+
+</label>
+
+<input
+type="number"
+id="tamu"
+min="1"
+value="1">
+
+<label>
+
+Kode Promo
+
+</label>
+
+<input
+type="text"
+placeholder="Contoh : KENCONO10">
+
+</div>
+
+<div class="right-booking">
+
+<img
+src="images/kamar3.jpg"
+alt="Kamar">
+
+<h2>
+
+Ringkasan Booking
+
+</h2>
+
+<table>
+
+<tr>
+
+<td>Harga / Malam</td>
+
+<td id="harga">
+
+Rp750.000
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Jumlah Malam</td>
+
+<td id="malam">
+
+0
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>Total</td>
+
+<td id="total">
+
+Rp0
+
+</td>
+
+</tr>
+
+</table>
+
+<button
+type="submit">
+
+Booking Sekarang
+
+</button>
+
+</div>
+
+</div>
+
+</form>
+
+</section>
+
+<footer>
+
+<h3>
+
+HOTEL KENCONO
+
+</h3>
+
+<p>
+
+Jl. Kencono No.1
+
+</p>
+
+<p>
+
+0812-0000-0000
+
+</p>
+
+<p>
+
+© 2026 HOTEL KENCONO
+
+</p>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+<script src="js/boking.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lengkapi Biodata | HOTEL KENCONO</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!-- Background Batik -->
+    <div class="batik-background"></div>
+
+    <!-- Container -->
+
+    <section class="biodata-container">
+
+        <div class="biodata-card">
+
+            <!-- Judul -->
+
+            <h1>HOTEL KENCONO</h1>
+
+            <h2>Lengkapi Biodata</h2>
+
+            <p>
+                Silakan isi data diri terlebih dahulu sebelum melakukan pemesanan kamar.
+            </p>
+
+            <!-- Form Biodata -->
+
+            <form id="biodataForm">
+
+                <!-- Nama -->
+
+                <div class="input-group">
+
+                    <label>Nama Lengkap</label>
+
+                    <input
+                        type="text"
+                        id="nama"
+                        placeholder="Masukkan Nama Lengkap"
+                        required>
+
+                </div>
+
+                <!-- Umur -->
+
+                <div class="input-group">
+
+                    <label>Umur</label>
+
+                    <input
+                        type="number"
+                        id="umur"
+                        placeholder="Masukkan Umur"
+                        required>
+
+                </div>
+
+                <!-- Tanggal -->
+
+                <div class="input-group">
+
+                    <label>Tanggal Lahir</label>
+
+                    <input
+                        type="number"
+                        id="tanggal"
+                        min="1"
+                        max="31"
+                        placeholder="Tanggal"
+                        required>
+
+                </div>
+
+                <!-- Bulan -->
+
+                <div class="input-group">
+
+                    <label>Bulan Lahir</label>
+
+                    <select id="bulan">
+
+                        <option>Januari</option>
+                        <option>Februari</option>
+                        <option>Maret</option>
+                        <option>April</option>
+                        <option>Mei</option>
+                        <option>Juni</option>
+                        <option>Juli</option>
+                        <option>Agustus</option>
+                        <option>September</option>
+                        <option>Oktober</option>
+                        <option>November</option>
+                        <option>Desember</option>
+
+                    </select>
+
+                </div>
+
+                <!-- Tahun -->
+
+                <div class="input-group">
+
+                    <label>Tahun Lahir</label>
+
+                    <input
+                        type="number"
+                        id="tahun"
+                        placeholder="Contoh : 2005"
+                        required>
+
+                </div>
+
+                <!-- Nomor HP -->
+
+                <div class="input-group">
+
+                    <label>Nomor Telepon</label>
+
+                    <input
+                        type="tel"
+                        id="telepon"
+                        placeholder="08xxxxxxxxxx"
+                        required>
+
+                </div>
+
+                <!-- Jenis Kelamin -->
+
+                <div class="input-group">
+
+                    <label>Jenis Kelamin</label>
+
+                    <select id="gender">
+
+                        <option>Laki-laki</option>
+
+                        <option>Perempuan</option>
+
+                    </select>
+
+                </div>
+
+                <!-- Alamat -->
+
+                <div class="input-group">
+
+                    <label>Alamat</label>
+
+                    <textarea
+                        id="alamat"
+                        rows="4"
+                        placeholder="Masukkan alamat lengkap"></textarea>
+
+                </div>
+
+                <!-- Tombol -->
+
+                <button type="submit">
+
+                    Simpan Biodata
+
+                </button>
+
+            </form>
+
+            <br>
+
+            <!-- Tombol Kembali -->
+
+            <a href="login.html">
+
+                ← Kembali ke Login
+
+            </a>
+
+        </div>
+
+    </section>
+
+    <!-- Javascript -->
+
+    <script src="js/script.js"></script>
+
+    <script src="js/biodata.js"></script>
+
+</body>
+
+</html>
